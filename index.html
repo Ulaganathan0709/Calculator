@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USKCalculator</title>
+    <title>USK Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1 id="title">USKCalculator</h1>
-        <p id="description">This is a custom calculator implemented using HTML, CSS, and JavaScript.</p>
+        <h1 id="title">USk Calculator</h1>
+        <p id="description">This is a sample calculator using HTML, CSS, and JavaScript.</p>
         <div class="calculator">
             <input type="text" id="result" readonly>
             <div class="row">
                 <button id="clear" onclick="clearDisplay()">C</button>
                 <button id="percentage" onclick="calculatePercentage()">%</button>
-                <button id="divide" onclick="appendExpression('/')">/</button>
-                <button id="multiply" onclick="appendExpression('*')">*</button>
+                <button id="divide" onclick="appendExpression('/')">÷</button>
+                <button id="multiply" onclick="appendExpression('*')">x</button>
             </div>
             <div class="row">
                 <button id="7" onclick="appendNumber(7)">7</button>
@@ -50,6 +50,9 @@
             <button onclick="hideHistory()">Close</button>
         </div>
     </div>
+
+    <!-- Zen Test Suite Script -->
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
 
     <script src="script.js"></script>
 </body>
